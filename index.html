@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kindergartena&bull;ar - PS3 Resources</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0a0a14;
+  color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+a { color: #5577ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* HEADER */
+.header {
+  background: #0d0d22;
+  border-bottom: 2px solid #003fff;
+  padding: 10px 16px;
+}
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.site-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* NAV */
+.nav { display: flex; flex-wrap: wrap; gap: 4px; }
+.nav a {
+  color: #aaa;
+  border: 1px solid #334;
+  padding: 5px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  text-decoration: none;
+  background: transparent;
+}
+.nav a:hover { background: #1a1a3a; color: #fff; border-color: #003fff; }
+
+/* MAIN */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* HERO */
+.hero { text-align: center; padding: 32px 0 24px; }
+.hero-star { font-size: 48px; margin-bottom: 8px; }
+.hero-title { font-size: 32px; font-weight: bold; color: #fff; margin-bottom: 4px; }
+.hero-subtitle { font-size: 16px; color: #5577ff; margin-bottom: 16px; }
+.hero-desc { font-size: 14px; color: #bbb; max-width: 600px; margin: 0 auto; }
+
+/* INFO BOX */
+.info-box {
+  background: #0f1028;
+  border: 1px solid #222244;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 24px 0;
+}
+.info-box h2 { font-size: 16px; color: #5577ff; margin-bottom: 8px; }
+.info-box p { font-size: 13px; color: #bbb; }
+.info-box strong { color: #fff; }
+
+/* SECTION */
+.section { margin-bottom: 40px; }
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+  border-left: 4px solid #003fff;
+  padding-left: 10px;
+}
+.section-desc { color: #aaa; margin-bottom: 20px; font-size: 14px; }
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+/* CARD */
+.card {
+  background: #0f1028;
+  border: 1px solid #222244;
+  border-radius: 6px;
+  padding: 14px;
+}
+.card:hover { border-color: #003fff; }
+.card-title { font-size: 14px; font-weight: bold; color: #fff; margin-bottom: 4px; }
+.badge {
+  display: inline-block;
+  background: #003fff;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.card-desc { font-size: 12px; color: #999; margin-bottom: 10px; }
+.btn {
+  display: inline-block;
+  background: #003fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn:hover { background: #0055ff; text-decoration: none; }
+
+/* FOOTER */
+.footer {
+  background: #0d0d22;
+  border-top: 2px solid #003fff;
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+.footer-sub { font-size: 11px; color: #444; margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="site-title">&#11088; Kindergartena&bull;ar</div>
+    <nav class="nav">
+      <a href="#stores">Stores</a>
+      <a href="#games">Games</a>
+      <a href="#homebrews">Homebrews</a>
+      <a href="#themes">Themes</a>
+    </nav>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-star">&#11088;</div>
+    <div class="hero-title">Kindergartena&bull;ar</div>
+    <div class="hero-subtitle">PS3 Resources &amp; Downloads</div>
+    <div class="hero-desc">
+      Welcome! Here you will find everything you need for your modded PS3 &mdash;
+      homebrew apps, custom themes, game stores, and more.
+      All links are tested and safe to use on HEN and CFW consoles.
+    </div>
+  </div>
+
+  <!-- INFO BOX -->
+  <div class="info-box">
+    <h2>What is HEN / CFW?</h2>
+    <p>
+      <strong>HEN (Homebrew Enabler)</strong> lets you run homebrew apps and install PKG files
+      on an unmodified PS3. <strong>CFW (Custom Firmware)</strong> is a modified firmware that
+      gives full control over your console. Most downloads on this site work with both.
+    </p>
+  </div>
+
+  <!-- STORES -->
+  <div class="section" id="stores">
+    <div class="section-title">Stores</div>
+    <div class="section-desc">
+      Third-party stores let you browse and install PS3 games directly from your console
+      over the internet. Choose the store that matches your firmware version.
+    </div>
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-title">PS3 Store HFW 4.93</div>
+        <div class="card-desc">Third-party game store compatible with Hybrid Firmware 4.93</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/lojas-493.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">PS3 Store HFW 4.91</div>
+        <div class="card-desc">Third-party game store compatible with Hybrid Firmware 4.91</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/lojas-491.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">All PS3 Stores</div>
+        <div class="card-desc">Full list of available third-party stores for PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/lojas_19.html" target="_blank">Open / Download</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- GAMES -->
+  <div class="section" id="games">
+    <div class="section-title">Games</div>
+    <div class="section-desc">
+      Browse PS3 and PS2 game catalogs. Games marked with online mode still have
+      active servers you can connect to.
+    </div>
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-title">PS3 Game Catalog</div>
+        <div class="card-desc">Full list of PS3 games available for download</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/jogos.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">PS2 Games on PS3</div>
+        <div class="card-desc">Play PS2 games on your PS3 via backwards compatibility</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/jogos.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Games with Online Mode</div>
+        <div class="card-desc">PS3 games that still have active online servers</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/jogos-com-o-modo-online-ativo.html" target="_blank">Open / Download</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HOMEBREWS -->
+  <div class="section" id="homebrews">
+    <div class="section-title">Homebrews</div>
+    <div class="section-desc">
+      Essential homebrew PKG files for your modded PS3.
+      Install via Package Manager on your console.
+    </div>
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-title">webMAN MOD 1.47.48 <span class="badge">.pkg</span></div>
+        <div class="card-desc">Essential homebrew plugin for managing games, temperatures, and more on HEN/CFW PS3</div>
+        <a class="btn" href="http://www.mediafire.com/file/webMAN_MOD_1.47.48_Installer.pkg" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">multiMAN 04.85.01 <span class="badge">.pkg</span></div>
+        <div class="card-desc">Multi-purpose file manager and game loader for modded PS3 consoles</div>
+        <a class="btn" href="http://www.mediafire.com/file/multiMAN_04.85.01_BASE.pkg" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">YouTube (No PSN Required) <span class="badge">.pkg</span></div>
+        <div class="card-desc">Watch YouTube on your PS3 without needing a PSN account</div>
+        <a class="btn" href="http://www.mediafire.com/file/Youtube_SEM_PSN.pkg" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Netflix (No PSN Required) <span class="badge">.pkg</span></div>
+        <div class="card-desc">Access Netflix on your PS3 without needing a PSN account</div>
+        <a class="btn" href="http://www.mediafire.com/file/Netflix_SEM_PSN.pkg" target="_blank">Open / Download</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- THEMES -->
+  <div class="section" id="themes">
+    <div class="section-title">Themes</div>
+    <div class="section-desc">
+      Custom PS3 themes in PKG format. Install them via Theme Settings on your console.
+      Works on HEN and CFW.
+    </div>
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-title">PS5 on PS3 Theme v3.5 <span class="badge">.pkg</span></div>
+        <div class="card-desc">Make your PS3 look like a PS5 &mdash; HEN compatible</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Rick and Morty Theme <span class="badge">.pkg</span></div>
+        <div class="card-desc">Custom Rick and Morty animated theme for your PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">One Piece Theme <span class="badge">.pkg</span></div>
+        <div class="card-desc">One Piece anime theme for your PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Dragon Ball Theme <span class="badge">.pkg</span></div>
+        <div class="card-desc">Dragon Ball custom theme for your PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Jujutsu Kaisen Theme <span class="badge">.pkg</span></div>
+        <div class="card-desc">Jujutsu Kaisen anime theme for your PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Naruto Theme <span class="badge">.pkg</span></div>
+        <div class="card-desc">Naruto anime theme for your PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">GTA 6 Theme <span class="badge">.pkg</span></div>
+        <div class="card-desc">GTA 6 styled custom theme for your PS3</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">All Themes Collection <span class="badge">.pkg</span></div>
+        <div class="card-desc">Browse the full collection of custom PS3 themes</div>
+        <a class="btn" href="http://michelsw17.blogspot.com/p/temas.html" target="_blank">Open / Download</a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>&#11088; Kindergartena&bull;ar &mdash; PS3 Resources &amp; Downloads</p>
+  <p class="footer-sub">Compatible with PS3 Internet Browser &bull; HEN &bull; CFW</p>
+</div>
+
+</body>
+</html>
